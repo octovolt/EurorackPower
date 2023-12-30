@@ -16,6 +16,8 @@ A. Providing +12v, ground and -12v at both corners
 
 The PCB conforms to an as-yet-unnamed system of submodules I am developing to make prototyping a little bit easier and more modular. Yeah, modular in your modular.
 
+When soldering, please see the [interactive BOM](https://octovolt.github.io/EurorackPower/).
+
 ![3DView-1](https://github.com/octovolt/EurorackPower/assets/78008936/263a8b32-d329-48c6-ae07-ec33e4f2e552)
 
 ![3DView-2](https://github.com/octovolt/EurorackPower/assets/78008936/c26b12cf-3423-4331-9c7e-328290b34d80)
