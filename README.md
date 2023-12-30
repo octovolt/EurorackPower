@@ -1,7 +1,12 @@
 # EurorackPower
 
-A submodule PCB for prototyping Eurorack modules. This PCB encapsulates the circuit often used in Eurorack modules for reverse polarity protection and ripple filtering. This PCB can be mounted onto another PCB or onto a breadboard.
+A submodule PCB for prototyping Eurorack modules. This PCB encapsulates the circuit often used in Eurorack modules for reverse polarity protection and ripple filtering. This PCB can be mounted onto another PCB or onto a breadboard. To mount the submodule on a breadboard, you can do one of two things:
 
-It conforms to a system of submodules I am developing to make prototyping a little bit easier and more modular. Yeah, modular in your modular.
+1. Only use the pairs of pins on the left side of the board to connect to the power rails of the breadboard. This is a flimsy solution, but it can work.
+2. Only solder two of the three pins in the top right and bottom right corners, making them match the pins on the left side. This allows you to connect to the PCB to the power rails of the breadboard with both sets of pins, and it's a lot more stable.
+
+Why are there three pins on the right side at all? Providing both +12v and -12v at both corners makes it easier to develop PCBs to which this submodule would provide power.
+
+The PCB conforms to a system of submodules I am developing to make prototyping a little bit easier and more modular. Yeah, modular in your modular.
 
 ![3DView-1](https://github.com/octovolt/EurorackPower/assets/78008936/263a8b32-d329-48c6-ae07-ec33e4f2e552)
